@@ -1,1 +1,1 @@
-script: sh build.sh
+script: ./build.sh
