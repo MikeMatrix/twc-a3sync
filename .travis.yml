@@ -1,2 +1,6 @@
 script: ./build.sh
-after-success: ./deploy.sh
+deploy:
+    provider: script
+    script: deploy.sh
+    on:
+        branch: master
