@@ -1,0 +1,22 @@
+{
+  "name": "twc-a3sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeMatrix/twc-a3sync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeMatrix/twc-a3sync/issues"
+  },
+  "homepage": "https://github.com/MikeMatrix/twc-a3sync#readme",
+  "devDependencies": {
+    "ftpsync": "^0.1.7"
+  }
+}

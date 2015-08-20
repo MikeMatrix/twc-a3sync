@@ -1,6 +1,6 @@
-language: bash
+language: node_js
+node_js:
+    - "0.12.7"
 sudo: true
-before_install:
-    - sudo npm install -g ftpsync
 script: ./build.sh
 after_success: "./deploy.sh"
