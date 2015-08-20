@@ -34,5 +34,5 @@ function extract {
 wget -P ./downloads/ https://github.com/CBATeam/CBA_A3/releases/download/v2.0.0.150817/CBA_A3_v2.0.0.150817.zip
 
 for f in ./downloads/*; do
-    extract f
+    extract $f
 done
