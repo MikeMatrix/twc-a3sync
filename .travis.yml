@@ -1,6 +1,4 @@
 language: node_js
 node_js:
     - "0.12.7"
-sudo: true
-script: ./build.sh
-after_success: "./node_modules/.bin/ftpsync -l release -r test -h blacksky-dev.com -p 21 -u $DEPLOYMENT_FTP_USER -s $DEPLOYMENT_FTP_PASS -c 20 -v"
+script: gulp

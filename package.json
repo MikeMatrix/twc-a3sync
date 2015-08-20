@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/MikeMatrix/twc-a3sync#readme",
   "devDependencies": {
-    "ftpsync": "^0.1.7"
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.1.0",
+    "gulp-download": "0.0.1",
+    "gulp-util": "^3.0.6",
+    "vinyl-ftp": "^0.4.4"
+  },
+  "dependencies": {
+    "gulp-decompress": "^1.1.0"
   }
 }
