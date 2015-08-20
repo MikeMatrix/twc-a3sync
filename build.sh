@@ -31,6 +31,8 @@ function extract {
     fi
 }
 
+java --version
+
 rm -rf ./downloads
 rm -rf ./release
 mkdir ./downloads
