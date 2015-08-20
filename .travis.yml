@@ -1,5 +1,6 @@
 language: bash
-before_isntall:
+sudo: true
+before_install:
     - sudo npm install -g ftpsync
 script: ./build.sh
 after_success: "./deploy.sh"
